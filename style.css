@@ -2,8 +2,8 @@
 
 body {
     overflow: hidden;
-    height: 100vh;
     font-family: 'Expletus Sans', cursive;
+    overflow: scroll;
 }
 
 .portfolio {
@@ -57,7 +57,9 @@ body {
 
 .text{
     position: absolute;
-    bottom: 5rem;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .active .text-container{
@@ -69,12 +71,12 @@ body {
 .invisible{
     display: none;
 }
-    
 
+.bloc{
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
-
-
-
-
-
-/*# sourceMappingURL=style.css.map */
+.h4{
+    text-decoration: underline;
+}
