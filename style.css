@@ -4,6 +4,7 @@ body {
     overflow: hidden;
     font-family: 'Expletus Sans', cursive;
     overflow: scroll;
+    height: 100vh;
 }
 
 .portfolio {
@@ -57,9 +58,7 @@ body {
 
 .text{
     position: absolute;
-    text-align: justify;
-    margin-left: 15%;
-    margin-right: 15%;
+    bottom: 5rem;
 }
 
 .active .text-container{
