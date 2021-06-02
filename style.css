@@ -76,6 +76,13 @@ body {
     margin-right: 15%;
 }
 
-.h4{
-    text-decoration: underline;
+.h3 {
+    font-style: normal;
+    font-weight: 400;
+    color:#bd1717;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 400;
 }
